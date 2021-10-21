@@ -1,0 +1,13 @@
+{
+    "name": "kaantanis/koza",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KaanTanis",
+            "email": "kt@kaantanis.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
