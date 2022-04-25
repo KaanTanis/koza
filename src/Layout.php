@@ -8,4 +8,9 @@ use KaanTanis\Koza\Layouts\Rows;
 class Layout
 {
     use Rows;
+
+    final public function translatable()
+    {
+
+    }
 }

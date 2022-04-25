@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static rows(array $fields)
+ * @method static translatable
  */
 class Layout extends Facade
 {

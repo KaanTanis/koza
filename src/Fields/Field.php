@@ -12,6 +12,7 @@ class Field
     public string $label;
     public string $required;
     public string $col;
+    public bool $translatable;
 
     #[Pure] public static function make(): static
     {
@@ -51,6 +52,12 @@ class Field
     final public function col(int $col): static
     {
         $this->col = $col;
+        return $this;
+    }
+
+    final public function translatable(bool $translatable = true): static
+    {
+        $this->translatable = $translatable;
         return $this;
     }
 }
