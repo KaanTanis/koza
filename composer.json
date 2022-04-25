@@ -9,5 +9,20 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "KaanTanis\\Koza\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KaanTanis\\Koza\\KozaServiceProvider"
+            ],
+            "aliases": {
+                "Layout": "KaanTanis\\Koza\\Facades\\Layout"
+            }
+        }
+    },
     "require": {}
 }
